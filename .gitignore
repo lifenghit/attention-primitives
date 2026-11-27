@@ -1,0 +1,32 @@
+# Native builds
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Testing/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Runtime state and logs
+var/
+*.db
+*.db-shm
+*.db-wal
+*.log
+output/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Local secrets
+.env
+.env.*
+!.env.example
